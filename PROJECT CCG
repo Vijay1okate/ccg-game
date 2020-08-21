@@ -78,17 +78,17 @@ while True:
     if answer =='n' or answer == 'N':
         break
 
-    # Thanks for playing and giving resuly
-    if computer_score == player_score:
-        print("Match is Tied")
-        print("Thanks for Playing")
+# Thanks for playing and giving resuly
+if computer_score == player_score:
+    print("Match is Tied")
+    print("Thanks for Playing")
 
-    elif computer_score < player_score:
-        print("Player is Victorious")
-        print("<<== User Wins ==>>")
-        print("thanks For Playing")
+elif computer_score < player_score:
+    print("Player is Victorious")
+    print("<<== User Wins ==>>")
+    print("thanks For Playing")
 
-    elif computer_score > player_score:
-        print("<<== Computer Wins ==>>")
-        print("Player Is Defeated")
-        print("Thanks For Playing")
+elif computer_score > player_score:
+    print("<<== Computer Wins ==>>")
+    print("Player Is Defeated")
+    print("Thanks For Playing")
